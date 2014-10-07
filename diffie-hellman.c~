@@ -9,7 +9,6 @@
 short int isPrime();
 unsigned long int quickE();
 unsigned long int randomPrime();
-unsigned long int chooseGenerator();
 
 unsigned long int quickE(unsigned long int a, unsigned long int b, unsigned long int n){ // quickE stands for quick exponentiation
   unsigned long int res = 1, pot = a % n;
